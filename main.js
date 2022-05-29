@@ -1,8 +1,8 @@
 let [milliseconds,seconds,minutes,hours] = [0,0,0,0];
 let int = null;
-let btnStart = document.getElementById('button-start')
-let btnStop = document.getElementById('button-stop')
-let btnReset = document.getElementById('button-reset')
+let btnStart = document.getElementById('tombol-start')
+let btnStop = document.getElementById('tombol-stop')
+let btnReset = document.getElementById('tombol-reset')
 
 btnStart.onclick = function (){
     if(int!==null){
